@@ -1,93 +1,97 @@
 .title {
-	padding-left: 30px;
-	color: #337ab7;
+  padding-left: 30px;
+  color: #337ab7;
 }
 
 .col > * {
-	min-height: inherit;
-	padding-top: 3% !important;
-	border-radius: 20px;
-	margin-bottom: 20px;
+  min-height: inherit;
+  padding-top: 3.5% !important;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
+.picker {
+  padding: 10px
+};
+
 .colorPicker {
-	width: 20%;
-	margin: 0;
-	height: 3%;
-	border-radius: 5px;
+  width: 20%;
+  margin: 0;
+  height: 3%;
+  border-radius: 5px;
 }
 
 .numberPicker {
-	width: 20%;
-	margin: 0;
-	padding-left: 10px;
-	height: 3%;
-	border-radius: 5px;
+  width: 20%;
+  margin: 0;
+  padding-left: 10px;
+  height: 3%;
+  border-radius: 5px;
 }
 
 .selectPicker {
-	margin: 0;
-	padding-left: 10px;
-	height: 3%;
-	border-radius: 5px;
+  margin: 0;
+  padding-left: 10px;
+  height: 3%;
+  border-radius: 5px;
 }
 
 .checkbox-check {
-	margin: 0;
-	height: 16px;
-	width: 16px;
+  margin: 0;
+  height: 16px;
+  width: 16px;
 }
 
 .inline {
-	display: inline-block
+  display: inline-block
 }
 
 .container {
-	width: 90%;
+  width: 90%;
 }
 
 .row {
-	text-align: center;
-	
+  text-align: center;
+  
 }
 
 .col {
-	min-height: 8%;
+  min-height: 8%;
 }
 
 .pickColor {
-	background-color: #d9534f;
+  background-color: #d9534f;
 }
 
 .pickCarYear {
-	background-color: #337ab7;
+  background-color: #337ab7;
 }
 
 .pickCommercial {
-	background-color: #000000;
+  background-color: #000000;
 }
 
 .pickGender {
-	background-color: #f4d03f;
+  background-color: #f4d03f;
 }
 
 .pickState {
-	background-color: #6C7A89;
+  background-color: #6C7A89;
 }
 
 .pickRace {
-	background-color: #1E824C;
+  background-color: #1E824C;
 }
 
 .text-back-colored {
-	font-weight: bold;
-	margin-right: 10px;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 .text-white {
-	color: white;
+  color: white;
 }
 
 .text-black {
-	color: black;
+  color: black;
 }

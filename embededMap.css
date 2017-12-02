@@ -1,0 +1,94 @@
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  text-align: center;
+  height: 40vh;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+#clearMap {
+  font-size: 12px;
+  text-align: center;
+  margin-left: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background-color:white;
+  color: black;
+  border: 1px solid grey;
+  border-radius: 10px;
+  opacity: .8;
+}
+
+.pac-card {
+  margin: 10px 10px 0 0;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: Roboto;
+}
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#displayMarkers {
+  display: inline-block;
+  min-height: 15%;
+  max-height: 15%;
+  overflow: auto;
+  text-align: center;
+  max-width: 100%;
+  width: 100%;
+  border: 2px solid darkgray;
+  border-radius: 10px;
+}
+
+.close-marker {
+  margin-left: 5px;
+  color: #d9534f;
+  font-size: 20px;
+}
+.displayedMarker {
+  cursor: pointer;
+  font-size: 16px;
+  text-align: left;
+  padding: 2px;
+  padding-left: 5px;
+}
+
+.mapTitle {
+  color: #000000;
+  font-weight:bold;
+}

@@ -1,0 +1,121 @@
+<div id="resultsBox">
+<button id="runTheData">Run The Data!</button>
+<div class="results">
+  <h3 id="results-spinner" style="display: none;">Loading...<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i></h3>
+  <div id="results-stats">
+    <h4>Stats: (Higher Scores Mean Lower Risk)</h4>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="color-black statRes">
+            Max Score: <span id="maxRes"></span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="color-red statRes">
+            Min Score: <span id="minRes"></span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="color-yellow statRes">
+            Mean: <span id="meanRes"></span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="color-blue statRes">
+            Standard Dev.: <span id="stdRes"></span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="color-grey statRes">
+            Average Score: <span id="avgRes"></span>
+          </div>  
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div id="display-scores" class="container">
+      
+    </div>
+  </div>
+</div>
+</div>
+
+<style>
+  #display-scores {
+    max-height: 60%;
+    height: 60%;
+    overflow: auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: #ECF0F1;
+    margin: 5px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  #resultsBox {
+    height: 63.5vh;
+    max-height: 63.5vh;
+    padding-top: 20px;
+    border: 2px solid black;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 10px;
+  }
+  #runTheData {
+    border-radius: 10px;
+    border: 2px solid #f4d03f;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background-color:#337ab7;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  
+  #results-spinner {
+    text-align:center;
+  }
+  .results {
+    margin: 2px;
+    padding: 2px;
+    width: 100%;
+  }
+  
+  .statRes {
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+    width: 100%;
+  }
+  
+  .color-blue {
+    background-color: #337ab7;
+  }
+  .color-red {
+    background-color: #d9534f;
+  }
+  .color-black {
+    background-color: #000000;
+  }
+  .color-yellow {
+    background-color: #f4d03f;
+  }
+  .color-grey {
+    background-color: #6C7A89;
+  }
+</style>
+<script>
+  
+</script>

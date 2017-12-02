@@ -1,0 +1,59 @@
+{
+  "Average Car Year": 0.8204603693956901, 
+  "maxHexColor": 16777215, 
+  "maxCarYear": 2031.0, 
+  "TypesMinMax": {
+    "Place_of_worship": {
+      "max": 13.99046587955084, 
+      "min": 0
+    }, 
+    "Doctor": {
+      "max": 39.99075983370824, 
+      "min": 0
+    }, 
+    "Food": {
+      "max": 32.976463659770445, 
+      "min": 0
+    }, 
+    "Political": {
+      "max": 17.98299413525019, 
+      "min": 0
+    }, 
+    "Transit": {
+      "max": 25.979737435477663, 
+      "min": 0
+    }, 
+    "Profession": {
+      "max": 20.986170906682354, 
+      "min": 0
+    }, 
+    "Trade": {
+      "max": 16.98962636498605, 
+      "min": 0
+    }, 
+    "Attraction": {
+      "max": 1.9999065911610325, 
+      "min": 0
+    }, 
+    "Undesirable": {
+      "max": 6.994791330670937, 
+      "min": 0
+    }, 
+    "Misc": {
+      "max": 11.991872894065686, 
+      "min": 0
+    }, 
+    "Institution": {
+      "max": 12.990899569027441, 
+      "min": 0
+    }, 
+    "Store": {
+      "max": 55.96128309230315, 
+      "min": 0
+    }
+  }, 
+  "minHexColor": 0, 
+  "maxRating": 5, 
+  "Average Rating": 0.8022434088315405, 
+  "minCarYear": 1902.0
+}
